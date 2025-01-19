@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "vite-react",
+  "description": "Vite 빌드도구 React 커스텀 템플릿",
+  "version": "1.0.0",
+  "engines": {
+    "node": "^22.12.0",
+    "vscode": "^1.96.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "@vitejs/plugin-react": "4.3.4",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react-hooks": "5.1.0",
+    "eslint-plugin-react-refresh": "0.4.18",
+    "husky": "9.1.7",
+    "lint-staged": "15.4.1",
+    "prettier": "3.4.2",
+    "typescript": "5.7.3",
+    "vite": "6.0.7"
+  },
+  "scripts": {
+    "start": "pnpm dev --open",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --cache 'src/**/*.{ts,tsx}'",
+    "format": "prettier --cache 'src/**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "husky-init": "8.0.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "pnpm lint",
+      "pnpm format"
+    ]
+  }
+}
