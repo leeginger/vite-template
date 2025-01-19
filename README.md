@@ -34,5 +34,6 @@ npm run lint
 npm run format
 ```
 
-저 명령어를 입력했는데 오류가 나오는거같습니다😅
-git에서 왜 배포가 안될까요..
+저 명령어를 입력했는데 오류가 나오는거같습니다😅<br>
+git에서 왜 배포가 안될까요..(해결👌🏾)<br>
+배포 url : https://leeginger.github.io/vite-template/
