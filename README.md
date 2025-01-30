@@ -1,39 +1,5 @@
-# Custom Vite Template
+# 과제
 
-React 학습 시작을 위한 사용자 정의 템플릿
+## 회원가입폼 만들기
 
-## 실행 명령어
-
-개발 서버 구동
-
-```sh
-npm run dev
-```
-
-프로젝트 빌드
-
-```sh
-npm run build
-```
-
-프로젝트 프리뷰
-
-```sh
-npm run preview
-```
-
-린팅 검사
-
-```sh
-npm run lint
-```
-
-포멧팅
-
-```sh
-npm run format
-```
-
-저 명령어를 입력했는데 오류가 나오는거같습니다😅<br>
-git에서 왜 배포가 안될까요..(해결👌🏾)<br>
-배포 url : https://leeginger.github.io/vite-template/
+회원가입을 할 때 가입하기를 누르면 왜 500 에러가 뜨는지 모르겠다
