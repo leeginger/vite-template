@@ -1,0 +1,54 @@
+@layer components {
+  body {
+    background: #eee;
+  }
+  .signup-form {
+    position: relative;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 24px 24px 64px;
+
+    div {
+      label {
+        display: block;
+        color: #26262c;
+        font-weight: 600;
+      }
+      input {
+        display: block;
+        width: 100%;
+        font-size: 14px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #d9d9de;
+        padding-block-end: 12px;
+      }
+      input:focus {
+        outline: none;
+        border-bottom: 1px solid #3578ff;
+      }
+      input::placeholder {
+        color: #62636c;
+      }
+    }
+    div + div {
+      margin-block-start: 12px;
+    }
+    button {
+      position: absolute;
+      bottom: -22px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #3578ff;
+      border-radius: 20px;
+      display: block;
+      width: 80%;
+      height: 44px;
+      border: 0;
+
+      span {
+        color: #fff;
+      }
+    }
+  }
+}
